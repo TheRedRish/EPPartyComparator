@@ -6,7 +6,9 @@ Step 2: Get your answers:
 ![image](https://github.com/TheRedRish/EPPartyComparator/assets/103194631/ec3d153f-f507-4cf2-98b2-4558ba533dec)
 
 Step 3: Run the program and enter the copied url. Wait, for the program to collect the data for all candidate members.
+
 Step 4: ?
+
 Step 5: See your results. You can now see which party you agree with the most, and on what topics.
 
 ![image](https://github.com/TheRedRish/EPPartyComparator/assets/103194631/ade6adb8-82c7-4651-a414-ae49d5f3591c)
