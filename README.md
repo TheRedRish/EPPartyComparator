@@ -1,4 +1,5 @@
 Step 1: Take the DR.DK candidate test.
+
 Step 2: Get your answers:
  - Go to the result page on https://www.dr.dk/nyheder/politik/ep-valg/kandidattest/resultat
  - Open the inspector tool in your browser (F12 on windows) and copy the Request Url from the GetMatch Get request. (See picture below)
