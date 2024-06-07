@@ -29,10 +29,8 @@ public class Main {
     }
 
     public static String getAnswers(String getMatchUrl) {
-        String urlString = "https://www.dr.dk/nyheder/politik/ep-valg/api/test/GetMatch?answers=U2FsdGVkX19IySgnd81YV0mCanuenk4xvE5kn4KU4XZEcCr5yGar0kS0uApLU6JTvrR%2BylIu01qPSgtYEAhjmDPj%2F%2Fvlbq6fXGZtGX7GZUtKtr9Il2fwrZi9hlNCmXCDG8EavnLayLCAjJEK1MCw%2BfFc%2F%2Bdj1CxRVtSULiQQ6mqvUwO%2BJ6ugkhKYEUpzTKoe8HkixuzED4T1ACvlTTi%2FfpimO4MVwIAiEBi6gMn%2FQ2WATRKGvws4%2BrwMILW0CECXC8DFA4j7hf439V2qZ1PRMELw%2BU%2Fp0iDH3QKbMp3hnGk%3D&candidateId=100";
-
         Pattern pattern = Pattern.compile("(?<=answers=)(.*?)(?=&|$)");
-        Matcher matcher = pattern.matcher(urlString);
+        Matcher matcher = pattern.matcher(getMatchUrl);
 
         if (matcher.find()) {
             return matcher.group();
